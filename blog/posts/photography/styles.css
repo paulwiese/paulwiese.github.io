@@ -1,0 +1,29 @@
+.heading {
+    font-size: 1.8rem;
+    padding: 3rem 4rem 0rem 4rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 1.2rem;
+    margin: 2rem;
+}
+
+.subheading {
+    font-weight: bold;
+}
+
+.img-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+img {
+    max-height: 45vh;
+    max-width: 60vw;
+}
