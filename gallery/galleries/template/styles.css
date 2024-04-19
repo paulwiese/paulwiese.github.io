@@ -31,4 +31,7 @@
     .portfolio {
         flex-direction: column;
     }
+    .header {
+        font-size: 3.5rem;
+    }
 }
