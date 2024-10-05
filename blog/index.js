@@ -1,13 +1,13 @@
 let posts = [
     {
-        link: 'posts/photography/index.html',
+        link: 'posts/photography/',
         preview: 'src/photography.jpg',
         title: 'Meine Fotografie-Geschichte',
         date: '2024-04-17',
         tags: ['fotografie']
     },
     {
-        link: 'posts/studium/index.html',
+        link: 'posts/studium/',
         preview: 'src/studium.jpg',
         title: 'Meine Erfahrungen: Informatik-Studium',
         date: '2024-04-17',

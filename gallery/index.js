@@ -1,11 +1,11 @@
 galleries = [
     {
-        link: 'galleries/personal/index.html',
+        link: 'galleries/personal/',
         preview: 'src/PW_06351.jpg',
         info: 'Leben',
     },
     {
-        link: 'galleries/events/index.html',
+        link: 'galleries/events/',
         preview: 'src/PW_02589.jpg',
         info: 'Events',
     }
