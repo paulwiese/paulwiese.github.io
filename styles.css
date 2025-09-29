@@ -3,11 +3,10 @@
     flex-direction: row;
     justify-content: flex-start;
     gap: 3%;
-    padding: 3%;
 }
 
 .image-section img {
-    max-height: 70vh;
+    max-height: 80vh;
     max-width: 50vw;
 }
 
@@ -15,18 +14,22 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     margin-left: 1rem;
 }
 
 .text-section .top {
     font-size: 2rem;
-    text-indent: 1rem;
 }
 
 .text-section .bottom {
     font-size: 1.2rem;
 }
+
+ul {
+    padding-left: 1rem;
+}
+
 
 .socials {
     display: flex;

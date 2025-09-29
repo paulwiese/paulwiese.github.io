@@ -1,0 +1,43 @@
+.project {
+    display: flex;
+    background-color: #DDD8D2;
+    min-height: 4rem;
+    border-radius: 10px;
+    column-gap: 3%;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: start;
+    padding: 1rem;
+    white-space: pre-line; 
+}
+
+.project * {
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.project a {
+    text-decoration: underline; /* remove underline */
+    font-weight: 500;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.date {
+    margin-top: 0.3rem;
+}
+
+.info {
+    margin-top: 0.8rem;
+}
+
+.repoDiv {
+    margin-top: 0.8rem;
+}
+
+.buildDiv {
+    margin-top: 0.8rem;
+}

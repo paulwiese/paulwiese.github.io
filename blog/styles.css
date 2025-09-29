@@ -3,7 +3,7 @@
     grid-template-columns: repeat(4,1fr);
     column-gap: 0.5rem;
     row-gap: 0.5rem;
-    margin: 2rem 1rem 2rem 1rem;
+    margin-bottom: 1rem;
 }
 
 #tag_selector button {
@@ -15,12 +15,12 @@
 }
 
 
-.active {
+#tag_selector .active {
     background-color: black;
     color: white;
 }
 
-.passive {
+#tag_selector .passive {
     background-color: white;
     color: black;
 }
@@ -29,13 +29,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1rem;
     row-gap: 3vh;
 }
 
 .post {
     display: flex;
-    background-color: hsl(38, 42%, 87%);
+    background-color: #DDD8D2;
     min-height: 4rem;
     border-radius: 10px;
     column-gap: 3%;
@@ -47,8 +46,8 @@
 .post .preview {
     display: flex;
     align-items: center;
-    width: 19%;
-    background-color: hsl(38, 42%, 93%);
+    width: 20%;
+    background-color: #DDD8D2;
     border-radius: 10px;
     margin: 10px;
 }
@@ -61,25 +60,29 @@
 .info {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 60%;
     height: 100%;
     row-gap: 1rem;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    min-width: 0;
 }
 
 .title {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
     margin-top: 1rem;
 }
 
 .date {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-bottom: 1rem;
 }
 
 .tags {
-    font-size: 1rem;
-    width: 35%;
-    margin: 1rem;
+    font-size: 1.2rem;
+    width: 20%;
+    margin: 0.2rem;
 }
 
 
@@ -93,23 +96,20 @@
     }
 
     .info {
-        width: 35%;
-    }
-
-    .title {
-        font-size: 1.5rem;
-    }
-
-    .tags {
-        width: 24%;
+        width: 65%;
     }
 
     .title {
         font-size: 1.1rem;
     }
 
+    .tags {
+        display: none;
+
+    }
+
     .date, .tags {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 
 }

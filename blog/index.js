@@ -1,18 +1,11 @@
 let posts = [
     {
-        link: 'posts/photography/',
-        preview: 'src/photography.jpg',
-        title: 'Meine Fotografie-Geschichte',
-        date: '2024-04-17',
-        tags: ['fotografie']
-    },
-    {
         link: 'posts/studium/',
         preview: 'src/studium.jpg',
-        title: 'Meine Erfahrungen: Informatik-Studium',
+        title: 'Modul-Übersicht: Informatik Bachelor',
         date: '2024-04-17',
         tags: ['studium']
-    }
+    },
 ];
 
 let allTagsSet = new Set();
@@ -101,7 +94,6 @@ function update() {
     
         const tagsDiv = document.createElement('div');
         tagsDiv.classList.add('tags');
-
         tagsDiv.innerHTML = 'tags: <br>' + post.tags.join(', ');
     
         p.appendChild(previewDiv);
