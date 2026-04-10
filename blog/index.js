@@ -1,9 +1,16 @@
 let posts = [
     {
-        link: 'posts/studium/',
+        link: 'posts/bachelor-module/',
         preview: 'src/studium.jpg',
         title: 'Modul-Übersicht: Informatik Bachelor',
         date: '2024-04-17',
+        tags: ['studium']
+    },
+    {
+        link: 'posts/master-module/',
+        preview: 'src/studium.jpg',
+        title: 'Modul-Übersicht: Informatik Master',
+        date: '2026-04-10',
         tags: ['studium']
     },
 ];
