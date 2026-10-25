@@ -1,11 +1,17 @@
 let projects = [
+
     {
-        title: 'Medication Tracker',
-        started: '2024-11-12',
-        info: 'This medication tracker UI was developed for a lab course on the Evaluation of User Interfaces. It was created with Flutter and features built in support for an A/B-Testing experiment.',
-        repo: 'https://github.com/paulwiese/medication-tracker',
-        build: 'https://paulwiese.github.io/medication-tracker/build/web/',
+        title: 'Cooking Assistant',
+        started: 'April 2026',
+        info: 'LLM powered Cooking Assistant helping users to find and manage recipes. Developed in a team of 3 people for the DevOps course at the Technical University of Munich.',
+        repo: 'https://github.com/AET-DevOps26/team-devsecops',
     },
+    {
+        title: 'Brainfuq',
+        started: 'April 2026',
+        info: 'Interpreter for the Brainfuq programming language, which extends the classical Brainfuck by instructions for quantum computing. Developed in a team of 2 people for the Quantum Computing Software Lab course at the Technical University of Munich.',
+        repo: 'https://github.com/dabund24/brainfuq',
+    }
 ];
 
 let projects_element = document.getElementById('projects');
@@ -41,21 +47,6 @@ projects.forEach(project => {
     p.appendChild(dateDiv);
     p.appendChild(infoDiv);
     p.appendChild(repoDiv);
-
-    if (project.build) {
-        
-        const buildDiv = document.createElement('div');
-        buildDiv.classList.add('buildDiv');
-        buildDiv.textContent = 'Build:\n';
-        
-        const build = document.createElement('a');
-        build.href = project.build;
-        build.classList.add('build');
-        build.textContent = project.build;
-        buildDiv.appendChild(build);
-
-        p.appendChild(buildDiv);
-    }
 
     projects_element.append(p)
 

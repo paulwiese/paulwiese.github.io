@@ -13,6 +13,10 @@ let images = [
     '103.jpg',
     '104.jpg',
     '105.jpg',
+    '106.jpg',
+    '107.jpg',
+    '108.jpg',
+    '109.jpg',
 ];
 
 for (const [index, value] of images.entries()) {

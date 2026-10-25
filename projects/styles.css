@@ -1,3 +1,9 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 .project {
     display: flex;
     background-color: #DDD8D2;
@@ -35,9 +41,5 @@
 }
 
 .repoDiv {
-    margin-top: 0.8rem;
-}
-
-.buildDiv {
     margin-top: 0.8rem;
 }
